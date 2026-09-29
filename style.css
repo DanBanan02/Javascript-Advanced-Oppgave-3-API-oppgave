@@ -1,0 +1,82 @@
+:root
+{
+    color: bisque;
+    background-color: black;
+}
+
+#Pokemon_list
+{
+    border-radius: 25px;
+    border-width: 5px;
+    border-color: hsl(278, 86%, 30%);
+    border-style: solid;
+
+    background-color:#2b0446;
+
+   padding: 25px;
+   padding-left: 45px;
+   padding-right: 175px;
+   margin-right: 850px;
+
+
+
+}
+
+
+#header_Title
+{
+    background: linear-gradient( 275deg, blue 10%, red 20%, yellow 30%, blue 40%, red 50%, yellow 60%, blue 70%, red 80%, yellow 90%);
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+/* PREVIOUS BUTTON */
+
+#Previous_Btn
+{
+    background-color:firebrick;
+
+    border-radius: 25px;
+
+    margin-right: 10px;
+
+    font-family:cursive;
+    font-weight: bold;
+}
+
+#Previous_Btn:hover
+{
+    background-color:darkred;
+}
+
+#Previous_Btn:active
+{
+    background-color:red;
+}
+
+/* NEXT BUTTON */
+
+#Next_Btn
+{
+    background-color: forestgreen;
+    padding-inline: 20px;
+    margin-left: 10px;
+
+    border-radius: 25px;
+
+    font-family:cursive;
+    font-weight: bold;
+}
+
+#Next_Btn:hover
+{
+    background-color:green;
+}
+
+#Next_Btn:active
+{
+    background-color:greenyellow;
+}
+
